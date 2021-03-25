@@ -11,3 +11,4 @@ string text = fastColoredTextBox1.Text <-- here shoud be a ";"
             here some fixes
             string text = fastColoredTextBox1.Text;
             this.api.SendLuaScript(text);
+// if you have any problems comment them.

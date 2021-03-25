@@ -1,7 +1,7 @@
-#FastColored text box problems
+/// Fast Colored text box problems
 1. If you dont know how to put the fastcoloredTextBox in the toolbox ill show you here,
 first go to toolbox then right click on any section then press choose items then browse then choose fast colored text box.
-# Api & Executing problems
+/// Api & Executing problems
 // here some common problems i've seen with executors
 string text = fastColoredTextBox1.Text <-- here shoud be a ";"
             this.api.SendLuaScript() <-- here shoud be a ";"

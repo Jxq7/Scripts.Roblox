@@ -1,1 +1,13 @@
-#Fastcolored text box problems
+#FastColored text box problems
+1. If you dont know how to put the fastcoloredTextBox in the toolbox ill show you here,
+first go to toolbox then right click on any section then press choose items then browse then choose fast colored text box.
+# Api & Executing problems
+// here some common problems i've seen with executors
+string text = fastColoredTextBox1.Text <-- here shoud be a ";"
+            this.api.SendLuaScript() <-- here shoud be a ";"
+            now theres alot of things wrong with this
+            first of all there shoud be a ";" at the end
+            and the other problem is there shoud be Text in the "this.api.SendLuaScript()"
+            here some fixes
+            string text = fastColoredTextBox1.Text;
+            this.api.SendLuaScript(text);

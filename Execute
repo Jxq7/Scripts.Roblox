@@ -1,0 +1,6 @@
+ string text = fastColoredTextBox1.Text;
+            this.api.SendLuaScript(text);
+            // put this in the execute section
+            // put the text under above your code
+            using WeAreDevs_API;
+            

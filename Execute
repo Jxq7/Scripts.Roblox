@@ -1,6 +1,5 @@
- string text = fastColoredTextBox1.Text;
-            this.api.SendLuaScript(text);
-            // put this in the execute section
-            // put the text under above your code
-            using WeAreDevs_API;
-            
+api.LaunchExploit();
+// put the code above in your execute section
+
+using WeAreDevs_API;
+// above at the using code
